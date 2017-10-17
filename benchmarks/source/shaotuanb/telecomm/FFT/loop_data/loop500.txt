@@ -205,3 +205,23 @@ Node0		"CLK"	=	16554966
 Node0		"TIME"	=	3.462775E-01
 Node0		"dyncnt"	=	11848038
 } Tag NODE0_LOGMARK_TAG_2.
+
+NODE 0 exiting...
+User Time elapsed = 8.113364 seconds.
+Simulated CPU Time elapsed = 9.690577E-01 seconds.
+Simulated Clock Cycles = 46329076
+Instruction Simulation Rate = 5710217.86 Cycles/Second.
+Estimated CPU-only Energy = 2.013707E-03
+
+
+ps
+
+Vdd	= 3.000000E+00
+Vt	= 0.000000E+00
+K	= 5.500000E-08
+alpha	= 1.880000E+00
+
+Cumulative Signal Transitions to date	= 3157160868
+CPU-only Total Energy			= 2.013707E-03 Joules
+CPU-only Average Power			= 2.078005E-03 Watts
+

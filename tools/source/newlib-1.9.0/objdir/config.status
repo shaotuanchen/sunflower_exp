@@ -1,0 +1,5 @@
+#!/bin/sh
+# This file was generated automatically by configure.  Do not edit.
+# This directory was configured as follows:
+../configure --target=sh-coff --host=x86_64-apple-darwin16.7.0 --prefix=/Users/Hippo/sunflower-simulator/tools/superH -v --with-stabs --nfp --disable-multilib --norecursion 
+# 

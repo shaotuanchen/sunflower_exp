@@ -1,0 +1,23 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:602: checking for a BSD compatible install
+configure:655: checking whether build environment is sane
+configure:712: checking whether make sets ${MAKE}
+configure:745: checking for Cygwin environment
+configure:778: checking for mingw32 environment
+configure:864: checking host system type
+configure:905: checking for working aclocal
+configure:918: checking for working autoconf
+configure:931: checking for working automake
+configure:944: checking for working autoheader
+configure:957: checking for working makeinfo
+configure:982: checking for gcc
+configure:1061: checking whether we are using GNU C
+configure:1085: checking whether sh-coff-gcc -B/Users/Hippo/sunflower-simulator/tools/source/newlib-1.9.0/objdir/sh-coff/newlib/ -isystem /Users/Hippo/sunflower-simulator/tools/source/newlib-1.9.0/objdir/sh-coff/newlib/targ-include -isystem /Users/Hippo/sunflower-simulator/tools/source/newlib-1.9.0/newlib/libc/include accepts -g
+configure:1118: checking build system type
+configure:1139: checking for -as
+configure:1171: checking for -ar
+configure:1203: checking for -ranlib
+configure:1280: checking for a BSD compatible install
+configure:1334: checking whether to enable maintainer-specific portions of Makefiles

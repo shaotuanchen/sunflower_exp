@@ -1,0 +1,629 @@
+
+RCS file: /cvs/src/src/ChangeLog,v
+Working file: ChangeLog
+head: 1.93
+branch:
+locks: strict
+access list:
+symbolic names:
+	binutils-2_10_1: 1.33.2.2
+	binutils-2_10: 1.33
+	gdb-premipsmulti-2000-06-06-branch: 1.53.0.2
+	gdb-premipsmulti-2000-06-06-branchpoint: 1.53
+	gdb_5_0-2000-05-19-release: 1.35.2.6
+	gdb_4_18_2-2000-05-18-release: 1.35.2.6
+	cygwin-1_1_1: 1.43
+	gdb_4_95_1-2000-05-11-snapshot: 1.35.2.6
+	gdb_4_95_0-2000-04-27-snapshot: 1.35.2.5
+	gdb_5_0-2000-04-10-branch: 1.35.0.2
+	gdb_5_0-2000-04-10-branchpoint: 1.35
+	binutils-2_10-branch: 1.33.0.2
+	binutils-2_10-branchpoint: 1.33
+	binutils_latest_snapshot: 1.93
+	repo-unification-2000-02-06: 1.22
+	binu_ss_19990721: 1.9
+	binutils-as-23: 1.6
+	binutils-as-21: 1.6
+	binutils-as-18: 1.6
+	binutils-as-14: 1.6
+	binutils-as-11: 1.4
+	binutils-as-09: 1.4
+	binutils-as-07: 1.4
+	binutils-as-04: 1.3
+	binu_ss_19990602: 1.3
+	binutils-as-30: 1.2
+	binu_ss_19990502: 1.1.1.1
+	cygnus: 1.1.1
+keyword substitution: kv
+total revisions: 103;	selected revisions: 103
+description:
+----------------------------
+revision 1.93
+date: 2000/12/12 20:33:04;  author: aoliva;  state: Exp;  lines: +5 -0
+* configure.in: Disable language-specific target libraries for
+languages that aren't enabled.
+----------------------------
+revision 1.92
+date: 2000/11/25 00:21:33;  author: nickc;  state: Exp;  lines: +6 -0
+Add ARM v5t, v5te and XScale support
+----------------------------
+revision 1.91
+date: 2000/11/23 07:49:23;  author: aoliva;  state: Exp;  lines: +4 -0
+* ltcf-gcj.sh: Added file, required by 2000-11-18 merge.
+----------------------------
+revision 1.90
+date: 2000/11/20 17:27:59;  author: ian;  state: Exp;  lines: +4 -0
+	* ltcf-cxx.sh: Added file, required by 2000-11-18 merge.
+----------------------------
+revision 1.89
+date: 2000/11/18 22:01:34;  author: aoliva;  state: Exp;  lines: +8 -0
+* Makefile.in: Merge with GCC and libgcj.
+(ALL_GCC_C, ALL_GCC_CXX): New macros.  Use them as dependencies of
+configure-target-<library> when their configure scripts need the C
+or C++ library to have already been built to work properly.
+(do_proto_toplev): Set them to an empty string.
+----------------------------
+revision 1.88
+date: 2000/11/18 20:58:43;  author: aoliva;  state: Exp;  lines: +5 -0
+* Makefile.in (HOST_LIB_PATH, TARGET_LIB_PATH): New macros.
+(REALLY_SET_LIB_PATH): Use them.
+----------------------------
+revision 1.87
+date: 2000/11/06 19:21:51;  author: cgf;  state: Exp;  lines: +4 -0
+* config.sub: Add support for Sun Chorus
+----------------------------
+revision 1.86
+date: 2000/11/02 23:07:28;  author: nickc;  state: Exp;  lines: +4 -0
+Add support for -storm-chaos
+----------------------------
+revision 1.85
+date: 2000/10/30 21:12:29;  author: nickc;  state: Exp;  lines: +5 -0
+Add noconfigure dirs for m68[hc]{11|12} targets.
+----------------------------
+revision 1.84
+date: 2000/09/30 06:06:58;  author: aoliva;  state: Exp;  lines: +6 -0
+* ltconfig, ltmain.sh, libtool.m4: Updated from libtool
+multi-language branch, to work around Solaris' /bin/sh bug.  Rebuilt
+all affected `configure' scripts.
+----------------------------
+revision 1.83
+date: 2000/09/25 20:26:51;  author: aoliva;  state: Exp;  lines: +5 -0
+* Makefile.in (DEVO_SUPPORT): Added gettext.m4, libtool.m4 and
+ltcf-c.sh.
+----------------------------
+revision 1.82
+date: 2000/09/12 18:09:35;  author: pb;  state: Exp;  lines: +4 -0
+2000-09-12  Philip Blundell  <philb@gnu.org>
+
+	* config.sub, config.guess: Update from subversions.
+----------------------------
+revision 1.81
+date: 2000/09/06 18:56:59;  author: aoliva;  state: Exp;  lines: +2 -0
+* Makefile.in (all-zlib): Added dummy target.
+----------------------------
+revision 1.80
+date: 2000/09/06 13:27:41;  author: aoliva;  state: Exp;  lines: +5 -0
+* ltconfig, ltmain.sh, libtool.m4, ltcf-c.sh: Updated from libtool
+multi-language branch.
+----------------------------
+revision 1.79
+date: 2000/09/05 16:10:03;  author: aoliva;  state: Exp;  lines: +5 -0
+* Makefile.in (all-bootstrap): Added all-texinfo and all-zlib.
+(bootstrap*): Depend on all-bootstrap.
+----------------------------
+revision 1.78
+date: 2000/09/02 07:24:51;  author: aoliva;  state: Exp;  lines: +5 -0
+* configure.in (FLAGS_FOR_TARGET): Use -nostdinc even for Canadian
+crosses, but add gcc/include to the header search path for them.
+----------------------------
+revision 1.77
+date: 2000/08/31 09:25:10;  author: aoliva;  state: Exp;  lines: +6 -0
+* ltconfig, ltmain.sh: Updated from libtool multi-language branch.
+* libtool.m4, ltcf-c.sh: Copied from libtool multi-language branch.
+* gettext.m4: New file, extracted from aclocal.m4.
+----------------------------
+revision 1.76
+date: 2000/08/22 05:01:20;  author: aoliva;  state: Exp;  lines: +6 -0
+* config-ml.in (CC, CXX): Avoid trailing whitespace.
+(LD_LIBRARY_PATH, SHLIB_PATH): Adjust for multilibs and export to
+sub-configures.
+----------------------------
+revision 1.75
+date: 2000/08/20 22:56:17;  author: devans;  state: Exp;  lines: +9 -0
+	* Makefile.in (ALL_MODULES): Add all-cgen.
+	(CROSS_CHECK_MODULES,INSTALL_MODULES,CLEAN_MODULES): Similarily.
+	(all-cgen): New target.
+	(all-opcodes,all-sim): Depend on all-cgen.
+	* configure.in (host_tools): Add cgen.
+	Only configure cgen if --enable-cgen-maint.
+----------------------------
+revision 1.74
+date: 2000/08/17 15:18:39;  author: aoliva;  state: Exp;  lines: +4 -0
+* config-ml.in (CC, CXX): Don't introduce a leading space.
+----------------------------
+revision 1.73
+date: 2000/08/16 18:37:42;  author: aoliva;  state: Exp;  lines: +5 -0
+* configure.in (libstdcxx_flags): Use
+libstdc++-v3/src/libstdc++.INC.
+----------------------------
+revision 1.72
+date: 2000/08/15 08:01:29;  author: aoliva;  state: Exp;  lines: +4 -0
+* configure.in (libstdcxx_flags): Use libstdc++-v3/src/INCLUDES.
+----------------------------
+revision 1.71
+date: 2000/08/12 00:49:39;  author: jason;  state: Exp;  lines: +7 -0
+        * configure.in (CC_FOR_TARGET, CHILL_FOR_TARGET,
+        CXX_FOR_TARGET): Add -B$$r/gcc/ here.
+        (FLAGS_FOR_TARGET): Not here.
+        (CHILL_FOR_TARGET, CXX_FOR_TARGET): Don't check the list of languages.
+----------------------------
+revision 1.70
+date: 2000/08/07 15:02:09;  author: dj;  state: Exp;  lines: +7 -0
+* configure.in (FLAGS_FOR_TARGET): invert test for xgcc, should mean
+"if we're also building gcc, and it's a gcc that will run on the
+build machine, we want to use its includes instead of the system's
+default includes".
+----------------------------
+revision 1.69
+date: 2000/08/03 23:54:09;  author: aoliva;  state: Exp;  lines: +2 -0
+* configure.in (libstdcxx_flags): Don't use `"'.
+----------------------------
+revision 1.68
+date: 2000/08/03 19:20:16;  author: aoliva;  state: Exp;  lines: +5 -0
+* config-ml.in: Adjust multilib search paths to the
+appropriate multilib tree.
+----------------------------
+revision 1.67
+date: 2000/08/03 02:22:11;  author: aoliva;  state: Exp;  lines: +5 -0
+* configure.in (CHILL_FOR_TARGET, CXX_FOR_TARGET): Convert blanks to
+commas in $LANGUAGES.
+----------------------------
+revision 1.66
+date: 2000/08/02 18:56:20;  author: dj;  state: Exp;  lines: +16 -0
+2000-08-01  Alexandre Oliva  <aoliva@redhat.com>
+
+	* configure.in (qCXX_FOR_TARGET): Use echo instead of expr.
+
+2000-07-31  Alexandre Oliva  <aoliva@redhat.com>
+
+	* configure.in (qCXX_FOR_TARGET): Quote `&' characters in
+	CXX_FOR_TARGET for sed.
+
+2000-07-30  Alexandre Oliva  <aoliva@redhat.com>
+
+	* configure.in (CC_FOR_TARGET, CHILL_FOR_TARGET, CXX_FOR_TARGET):
+	Do not override if already set in the environment or in configure.
+	Don't duplicate $(FLAGS_FOR_TARGET) if it already appears in them.
+	(FLAGS_FOR_TARGET): Don't use host directories on Canadian crosses.
+----------------------------
+revision 1.65
+date: 2000/07/28 02:10:35;  author: aoliva;  state: Exp;  lines: +9 -0
+* Makefile.in (FLAGS_FOR_TARGET): New macro.
+(GCC_FOR_TARGET): Use it.
+(CC_FOR_TARGET, CXX_FOR_TARGET, CHILL_FOR_TARGET): Now defined...
+* configure.in: ... here.
+(FLAGS_FOR_TARGET): Define.  Add ld build dir to -L path.
+(libstdcxx_flags): Define and append to CXX_FOR_TARGET.
+----------------------------
+revision 1.64
+date: 2000/07/24 04:34:55;  author: aoliva;  state: Exp;  lines: +3 -0
+* Makefile.in (configure-target-libf2c): Depend on $(ALL_GCC).
+(configure-target-libchill, configure-target-libobjc): Likewise.
+----------------------------
+revision 1.63
+date: 2000/07/24 04:34:08;  author: aoliva;  state: Exp;  lines: +5 -0
+* configure.in: Use the same cache file for all target libs.
+* config-ml.in: But different cache files per multilib variant.
+----------------------------
+revision 1.62
+date: 2000/07/23 17:42:34;  author: law;  state: Exp;  lines: +4 -0
+
+	* configure (topsrcdir): Don't use dirname.
+----------------------------
+revision 1.61
+date: 2000/07/22 08:20:09;  author: jason;  state: Exp;  lines: +333 -89
+merge with gcc
+----------------------------
+revision 1.60
+date: 2000/07/20 18:03:17;  author: hp;  state: Exp;  lines: +4 -0
+	* config.sub: Update to subversions version 2000-07-06.
+----------------------------
+revision 1.59
+date: 2000/07/07 13:21:39;  author: law;  state: Exp;  lines: +4 -0
+        * symlink-tree:  Check number of arguments.
+----------------------------
+revision 1.58
+date: 2000/07/06 05:39:35;  author: cagney;  state: Exp;  lines: +4 -0
+Update texinfo.tex to version 2000-05-28.15.
+----------------------------
+revision 1.57
+date: 2000/07/02 01:14:54;  author: ulfc;  state: Exp;  lines: +4 -0
+2000-07-01  Koundinya K  <kk@ddeorg.soft.net>
+
+        * ltconfig: Add support for mips-dde-sysv4.2MP
+----------------------------
+revision 1.56
+date: 2000/06/28 20:26:52;  author: corinna;  state: Exp;  lines: +5 -0
+        * ltconfig: Check for host_os beeing one of `cygwin', `mingw' or
+        `os2'. Force ac_cv_exeext to be ".exe" in that case.
+----------------------------
+revision 1.55
+date: 2000/06/20 13:59:03;  author: twall;  state: Exp;  lines: +5 -0
+TI C54x target added.
+----------------------------
+revision 1.54
+date: 2000/06/07 21:31:48;  author: nickc;  state: Exp;  lines: +5 -0
+new file - notes about using --enable-maintainer-mode
+----------------------------
+revision 1.53
+date: 2000/05/31 10:18:58;  author: cagney;  state: Exp;  lines: +4 -0
+Import texinfo.tex from texinfo-4.0.
+Add support for ``make pdf'' to the gdb/doc directory using pdftex.
+----------------------------
+revision 1.52
+date: 2000/05/30 09:08:59;  author: cagney;  state: Exp;  lines: +5 -0
+* config.sub: Import CVS version 1.167 Tue May 30 09:00:07 2000.
+* config.guess: Import CVS version 1.148 Tue May 30 09:00:06 2000
+----------------------------
+revision 1.51
+date: 2000/05/21 16:57:14;  author: hjl;  state: Exp;  lines: +11 -0
+20000-05-21  H.J. Lu  (hjl@gnu.org)
+
+	* configure: Revert changes made on May 18 and May 19.
+
+        * Makefile.in (CC_FOR_TARGET): Make sure as/ld in the gcc
+        directory are used if they exist. Make sure
+        $(build_tooldir)/include is searched for header files,
+        $(build_tooldir)/lib/ for library files.
+        (GCC_FOR_TARGET): Likewise.
+        (CXX_FOR_TARGET): Likewise.
+----------------------------
+revision 1.50
+date: 2000/05/19 18:14:17;  author: hjl;  state: Exp;  lines: +5 -0
+20000-05-19  H.J. Lu  (hjl@gnu.org)
+
+	* configure: Provide --disable-target-dir-sanity-checking to
+	disable the gcc directory checking for cross compiling.
+----------------------------
+revision 1.49
+date: 2000/05/18 17:11:17;  author: hjl;  state: Exp;  lines: +5 -0
+20000-05-18  H.J. Lu  (hjl@gnu.org)
+
+	* configure: Ask to create the gcc directory for cross
+	compiling if necessary.
+----------------------------
+revision 1.48
+date: 2000/05/18 16:58:06;  author: law;  state: Exp;  lines: +4 -0
+        * configure.in (hppa*64*-*-*): Do build ld for this configuration.
+----------------------------
+revision 1.47
+date: 2000/05/18 14:28:32;  author: dje;  state: Exp;  lines: +4 -0
+* configure.in: Special case powerpc*-*-aix* target_makefile_frag.
+----------------------------
+revision 1.46
+date: 2000/05/17 19:23:34;  author: aoliva;  state: Exp;  lines: +5 -0
+* Makefile.in (configure-target-libiberty): Depend on
+configure-target-newlib.
+----------------------------
+revision 1.45
+date: 2000/05/16 00:09:00;  author: cagney;  state: Exp;  lines: +5 -0
+Skip CVS directories when creating tar ball.
+----------------------------
+revision 1.44
+date: 2000/05/16 00:04:10;  author: cagney;  state: Exp;  lines: +7 -0
+Add code to tweek djunpack as part of release process.
+----------------------------
+revision 1.43
+date: 2000/05/13 21:19:50;  author: hjl;  state: Exp;  lines: +5 -0
+2000-05-13 Alexandre Oliva  <oliva@lsd.ic.unicamp.br>
+
+	* ltmain.sh: Preserve in relink_command any environment
+	variables that may affect the linker behavior.
+----------------------------
+revision 1.42
+date: 2000/05/12 17:23:42;  author: law;  state: Exp;  lines: +4 -0
+
+        * config.sub (basic_machine): Recognize hppa64 as a valid cpu type.
+----------------------------
+revision 1.41
+date: 2000/05/11 04:27:08;  author: wilson;  state: Exp;  lines: +4 -0
+Add toplevel configure support for ia64-elf.
+	* configure.in (ia64*-*-elf*): Add gdb and friends to noconfigdirs.
+----------------------------
+revision 1.40
+date: 2000/05/08 15:06:26;  author: eliz;  state: Exp;  lines: +5 -0
+	* djunpack.bat: Change the Sed script to replace @V@ in fnchange.lst
+        with the version name.
+
+	* config/djgpp/djconfig.sh: Use more warning switches.
+
+	* config/djgpp/fnchange.lst: Replace the leading gdb-0222 with the
+        @V@ placebo.
+----------------------------
+revision 1.39
+date: 2000/04/23 07:23:05;  author: eliz;  state: Exp;  lines: +4 -0
+	* djunpack.bat: New file.
+
+	* config/djgpp/README: Explain how to unpack using djunpack.bat.
+----------------------------
+revision 1.38
+date: 2000/04/21 17:22:34;  author: rth;  state: Exp;  lines: +4 -0
+        * config.sub (d30v): Add d30v as a basic machine type.
+----------------------------
+revision 1.37
+date: 2000/04/19 06:00:02;  author: cagney;  state: Exp;  lines: +7 -0
+Pass MD5PROG to sub-makes when building .tar.bz2 archive.
+----------------------------
+revision 1.36
+date: 2000/04/13 02:17:35;  author: cagney;  state: Exp;  lines: +14 -0
+* Makefile.in (gdb-taz): New target.  GDB specific archive.
+(do-md5sum): New target.
+(MD5PROG): Define.
+(PACKAGE): Default to TOOL.
+(VER): Default to a shell script.
+(taz): Rewrite target.  Move real work to do-proto-toplev.  Include
+md5 checksum generation.
+(do-proto-toplev): New target. Create $(PACKAGE)-$(VER) link.
+(do-tar-bz2): Delete creation of $(PACKAGE)-$(VER) link.
+(gdb.tar.bz2, dejagnu.tar.bz2, gdb+dejagnu.tar.bz2,
+insight.tar.bz2): Use gdb-taz to create archive.
+----------------------------
+revision 1.35
+date: 2000/04/09 12:17:36;  author: cagney;  state: Exp;  lines: +4 -0
+branches:  1.35.2;
+Remove ``-W -Wall'' from top-level Makefile/configure.
+Add ``-W -Wall'' to sub-directories bfd, binutils, gas gprof, ld and
+opcodes by the addition of WARN_CFLAGS to Makefile.am and configury to
+set it.  Add configure option --enable-build-warnings.
+Re-generate all and sundry using auto*-000227.
+----------------------------
+revision 1.34
+date: 2000/04/03 01:24:45;  author: cgf;  state: Exp;  lines: +6 -0
+* Makefile.in (CC_FOR_TARGET): Add new winsup directory structure stuff to -L
+library search.
+(CXX_FOR_TARGET): Ditto.
+----------------------------
+revision 1.33
+date: 2000/03/30 02:19:55;  author: jason;  state: Exp;  lines: +9 -0
+branches:  1.33.2;
+        * configure.in: -linux-gnu*, not -linux-gnu.
+
+        * configure (gcc_version): When setting, narrow search to
+        lines containing `version_string'.
+----------------------------
+revision 1.32
+date: 2000/03/10 21:21:16;  author: hjl;  state: Exp;  lines: +4 -0
+2000-03-10  H.J. Lu  <hjl@gnu.org>
+
+	* Makefile.in (all-gcc): Backed out the last change.
+----------------------------
+revision 1.31
+date: 2000/03/10 20:50:45;  author: hjl;  state: Exp;  lines: +4 -0
+2000-03-10  H.J. Lu  <hjl@gnu.org>
+
+	* Makefile.in (all-gcc): Run ld/ld-new if necessary.
+----------------------------
+revision 1.30
+date: 2000/03/03 23:52:30;  author: cagney;  state: Exp;  lines: +8 -0
+* Makefile.in (taz): Set PACKAGE to TOOL when not defined.
+(do-tar-bz2): Replace TOOL with PACKAGE.
+(gdb.tar.bz2): Remove GDBTK from GDB package.
+(gdb+dejagnu.tar.bz2, insight.tar.bz2, insight+dejagnu.tar.bz2,
+dejagnu.tar.bz2): New packages.
+----------------------------
+revision 1.29
+date: 2000/02/28 04:20:22;  author: ian;  state: Exp;  lines: +5 -0
+2000-02-27  Andreas Jaeger  <aj@suse.de>
+
+	* configure.in: Add entry for mips*-*-linux*, move catch all
+	*-*-*linux* entry below this one.
+----------------------------
+revision 1.28
+date: 2000/02/27 16:46:19;  author: ian;  state: Exp;  lines: +4 -0
+	* ltconfig, ltmain.sh: Update to libtool 1.3.4.
+----------------------------
+revision 1.27
+date: 2000/02/24 21:20:57;  author: nickc;  state: Exp;  lines: +4 -0
+Add support for an OS of "wince"
+----------------------------
+revision 1.26
+date: 2000/02/24 05:38:51;  author: cagney;  state: Exp;  lines: +5 -0
+* config.guess, config.sub: Updated to match config's 2000-02-15
+version.
+----------------------------
+revision 1.25
+date: 2000/02/23 13:52:19;  author: amodra;  state: Exp;  lines: +5 -0
+Add IBM 370 support.
+----------------------------
+revision 1.24
+date: 2000/02/23 01:26:59;  author: nickc;  state: Exp;  lines: +4 -0
+Add support for sh-pe and arm-wince-pe targets.
+----------------------------
+revision 1.23
+date: 2000/02/21 03:25:29;  author: cgf;  state: Exp;  lines: +4 -0
+cygwin32 -> cygwin.
+----------------------------
+revision 1.22
+date: 2000/02/07 02:22:31;  author: jsm;  state: Exp;  lines: +2 -2
+2000-02-06  Jason Molenda  (jsm@bugshack.cygnus.com)
+
+	* ChangeLog: Whitespace change to test logging.
+	* bfd/ChangeLog, dejagnu/ChangeLog, include/ChangeLog, tcl/ChangeLog: Same.
+----------------------------
+revision 1.21
+date: 2000/02/07 00:34:34;  author: jsm;  state: Exp;  lines: +31 -0
+Apply patches to support Insight by hand from insight-2000-02-04 snapshot.
+----------------------------
+revision 1.20
+date: 2000/01/12 18:56:45;  author: geoffk;  state: Exp;  lines: +5 -0
+Merge in changes from egcs for AIX cross-compilation support.
+----------------------------
+revision 1.19
+date: 1999/09/04 16:52:13;  author: ian;  state: Exp;  lines: +4 -0
+1999-09-04  Steve Chamberlain  <sac@pobox.com>
+
+	* config.sub: Add support for configuring for pj.
+----------------------------
+revision 1.18
+date: 1999/08/31 09:47:20;  author: nickc;  state: Exp;  lines: +4 -0
+Add support for configuring for fr30.
+----------------------------
+revision 1.17
+date: 1999/08/27 10:42:57;  author: nickc;  state: Exp;  lines: +5 -0
+Do not build ld for native AIX platforms.
+----------------------------
+revision 1.16
+date: 1999/08/10 03:33:09;  author: ian;  state: Exp;  lines: +4 -0
+	* Makefile.in (LDFLAGS): Define.
+----------------------------
+revision 1.15
+date: 1999/08/08 23:32:46;  author: ian;  state: Exp;  lines: +6 -0
+1999-08-08  Mumit Khan  <khan@xraylith.wisc.edu>
+
+	* configure.in (i[3456]-*-mingw32*): Don't put gprof in
+	noconfigdirs.
+	(*-*-cygwin*): Likewise.
+----------------------------
+revision 1.14
+date: 1999/08/08 17:46:01;  author: ian;  state: Exp;  lines: +4 -0
+	* mkdep: New file.
+	* Makefile.in (GAS_SUPPORT_DIRS): Add mkdep.
+	(BINUTILS_SUPPORT_DIRS): Add mkdep.
+----------------------------
+revision 1.13
+date: 1999/08/08 15:36:13;  author: ian;  state: Exp;  lines: +6 -0
+	From Eli Zaretskii <eliz@is.elta.co.il>:
+	* configure (tmpfile): Change cONf$$ to cNf$$ to avoid an overly
+	long file name when using DJGPP on MS-DOS.
+----------------------------
+revision 1.12
+date: 1999/07/30 07:40:51;  author: amodra;  state: Exp;  lines: +5 -0
+
+* Makefile.in (check-target-libio): Remove all-target-libstdc++
+dependency as this causes "make check" to globally "make all"
+----------------------------
+revision 1.11
+date: 1999/07/23 00:56:28;  author: ian;  state: Exp;  lines: +8 -0
+	* Makefile.in (binutils.tar.bz2): Don't pass makeall.bat and
+	configure.bat in SUPPORT_FILES.
+	(gas+binutils.tar.bz2): Likewise.
+
+	* makeall.bat: Remove; obsolete.
+----------------------------
+revision 1.10
+date: 1999/07/22 01:16:49;  author: ian;  state: Exp;  lines: +5 -0
+	From Mark Elbrecht:
+	* configure.bat: Remove; obsolete.
+----------------------------
+revision 1.9
+date: 1999/07/11 17:26:48;  author: ian;  state: Exp;  lines: +5 -0
+	* configure: Add -W -Wall to the default CFLAGS when compiling with
+	gcc.
+----------------------------
+revision 1.8
+date: 1999/07/08 11:35:03;  author: law;  state: Exp;  lines: +4 -0
+ÿ
+        * configure.in: Build ld, binutils & gas for hppa*-*-linux-gnu*.
+----------------------------
+revision 1.7
+date: 1999/06/30 21:00:59;  author: mmitchel;  state: Exp;  lines: +4 -0
+	* configure.in: Build ld on IRIX6.
+----------------------------
+revision 1.6
+date: 1999/06/12 10:11:00;  author: ian;  state: Exp;  lines: +1 -0
+	* Makefile.in: (taz): Don't use texinfo/gpl.texinfo or
+	texinfo/lgpl.texinfo.
+----------------------------
+revision 1.5
+date: 1999/06/12 10:04:10;  author: ian;  state: Exp;  lines: +6 -0
+	* Makefile.in: Change distribution targets to use bzip2 instead of
+	gzip.
+	(TEXINFO_SUPPORT): Set to just texinfo/texinfo.tex.
+----------------------------
+revision 1.4
+date: 1999/06/04 07:20:17;  author: nickc;  state: Exp;  lines: +4 -0
+Add mcore target
+----------------------------
+revision 1.3
+date: 1999/05/30 16:06:13;  author: rth;  state: Exp;  lines: +4 -0
+Cort Dougan  <cort@cs.nmt.edu>
+        * config.guess (ppc-*-linux-gnu): Also use ld emul elf32ppclinux.
+----------------------------
+revision 1.2
+date: 1999/05/24 15:20:20;  author: nickc;  state: Exp;  lines: +4 -0
+Updated to match latest version in EGCS
+----------------------------
+revision 1.1
+date: 1999/05/03 07:28:39;  author: rth;  state: Exp;
+branches:  1.1.1;
+Initial revision
+----------------------------
+revision 1.1.1.1
+date: 1999/05/03 07:28:39;  author: rth;  state: Exp;  lines: +0 -0
+19990502 sourceware import
+----------------------------
+revision 1.33.2.2
+date: 2000/11/07 08:57:15;  author: pb;  state: Exp;  lines: +4 -0
+2000-11-07  Philip Blundell  <pb@futuretv.com>
+
+	* Makefile.in (ETC_SUPPORT): Also add configbuild.* and configdev.*.
+
+2000-11-03  Philip Blundell  <pb@futuretv.com>
+
+	* Makefile.in (ETC_SUPPORT): Add configure.texi and associated info
+	files.
+----------------------------
+revision 1.33.2.1
+date: 2000/11/03 17:17:49;  author: pb;  state: Exp;  lines: +5 -0
+2000-11-03  Philip Blundell  <pb@futuretv.com>
+
+	* Makefile.in (ETC_SUPPORT): Add configure.texi and associated info
+	files.
+----------------------------
+revision 1.35.2.7
+date: 2000/05/31 08:16:47;  author: cagney;  state: Exp;  lines: +4 -0
+Upgrade texinfo.tex to the file distributed with texinfo-4.0. Add
+support for the target ``pdf'' to the gdb/doc directory.
+----------------------------
+revision 1.35.2.6
+date: 2000/05/08 15:26:59;  author: eliz;  state: Exp;  lines: +5 -0
+	* djunpack.bat: Change the Sed script to replace @V@ in fnchange.lst
+        with the version name.
+
+	* config/djgpp/djconfig.sh: Use more warning switches.
+
+	* config/djgpp/fnchange.lst: Replace the leading gdb-0222 with the
+        @V@ placebo.  djunpack.bat changed accordingly.
+----------------------------
+revision 1.35.2.5
+date: 2000/04/27 01:10:29;  author: cagney;  state: Exp;  lines: +5 -0
+Do not include CVS files in the archive.
+----------------------------
+revision 1.35.2.4
+date: 2000/04/26 07:28:22;  author: cagney;  state: Exp;  lines: +6 -0
+Update djunpack.bat as part of creating a GDB archive.
+----------------------------
+revision 1.35.2.3
+date: 2000/04/23 07:47:01;  author: eliz;  state: Exp;  lines: +4 -0
+	* djunpack.bat: New file.
+
+	* config/djgpp/README: Explain how to unpack using djunpack.bat.
+----------------------------
+revision 1.35.2.2
+date: 2000/04/19 06:00:03;  author: cagney;  state: Exp;  lines: +7 -0
+Pass MD5PROG to sub-makes when building .tar.bz2 archive.
+----------------------------
+revision 1.35.2.1
+date: 2000/04/13 02:17:20;  author: cagney;  state: Exp;  lines: +14 -0
+* Makefile.in (gdb-taz): New target.  GDB specific archive.
+(do-md5sum): New target.
+(MD5PROG): Define.
+(PACKAGE): Default to TOOL.
+(VER): Default to a shell script.
+(taz): Rewrite target.  Move real work to do-proto-toplev.  Include
+md5 checksum generation.
+(do-proto-toplev): New target. Create $(PACKAGE)-$(VER) link.
+(do-tar-bz2): Delete creation of $(PACKAGE)-$(VER) link.
+(gdb.tar.bz2, dejagnu.tar.bz2, gdb+dejagnu.tar.bz2,
+insight.tar.bz2): Use gdb-taz to create archive.
+=============================================================================

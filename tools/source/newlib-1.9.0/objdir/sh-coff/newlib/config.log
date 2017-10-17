@@ -1,0 +1,52 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:580: checking for a BSD compatible install
+configure:633: checking whether build environment is sane
+configure:690: checking whether make sets ${MAKE}
+configure:723: checking for Cygwin environment
+configure:739: sh-coff-gcc -B/Users/Hippo/sunflower-simulator/tools/source/newlib-1.9.0/objdir/sh-coff/newlib/ -isystem /Users/Hippo/sunflower-simulator/tools/source/newlib-1.9.0/objdir/sh-coff/newlib/targ-include -isystem /Users/Hippo/sunflower-simulator/tools/source/newlib-1.9.0/newlib/libc/include -c -Os  conftest.c 1>&5
+configure: In function 'main':
+configure:735: error: '__CYGWIN32__' undeclared (first use in this function)
+configure:735: error: (Each undeclared identifier is reported only once
+configure:735: error: for each function it appears in.)
+configure: failed program was:
+#line 728 "configure"
+#include "confdefs.h"
+
+int main() {
+
+#ifndef __CYGWIN__
+#define __CYGWIN__ __CYGWIN32__
+#endif
+return __CYGWIN__;
+; return 0; }
+configure:756: checking for mingw32 environment
+configure:768: sh-coff-gcc -B/Users/Hippo/sunflower-simulator/tools/source/newlib-1.9.0/objdir/sh-coff/newlib/ -isystem /Users/Hippo/sunflower-simulator/tools/source/newlib-1.9.0/objdir/sh-coff/newlib/targ-include -isystem /Users/Hippo/sunflower-simulator/tools/source/newlib-1.9.0/newlib/libc/include -c -Os  conftest.c 1>&5
+configure: In function 'main':
+configure:764: error: '__MINGW32__' undeclared (first use in this function)
+configure:764: error: (Each undeclared identifier is reported only once
+configure:764: error: for each function it appears in.)
+configure: failed program was:
+#line 761 "configure"
+#include "confdefs.h"
+
+int main() {
+return __MINGW32__;
+; return 0; }
+configure:842: checking host system type
+configure:883: checking for working aclocal
+configure:896: checking for working autoconf
+configure:909: checking for working automake
+configure:922: checking for working autoheader
+configure:935: checking for working makeinfo
+configure:960: checking for gcc
+configure:1039: checking whether we are using GNU C
+configure:1048: sh-coff-gcc -B/Users/Hippo/sunflower-simulator/tools/source/newlib-1.9.0/objdir/sh-coff/newlib/ -isystem /Users/Hippo/sunflower-simulator/tools/source/newlib-1.9.0/objdir/sh-coff/newlib/targ-include -isystem /Users/Hippo/sunflower-simulator/tools/source/newlib-1.9.0/newlib/libc/include -E conftest.c
+configure:1063: checking whether sh-coff-gcc -B/Users/Hippo/sunflower-simulator/tools/source/newlib-1.9.0/objdir/sh-coff/newlib/ -isystem /Users/Hippo/sunflower-simulator/tools/source/newlib-1.9.0/objdir/sh-coff/newlib/targ-include -isystem /Users/Hippo/sunflower-simulator/tools/source/newlib-1.9.0/newlib/libc/include accepts -g
+configure:1096: checking build system type
+configure:1117: checking for -as
+configure:1149: checking for -ar
+configure:1181: checking for -ranlib
+configure:1258: checking for a BSD compatible install
+configure:1312: checking whether to enable maintainer-specific portions of Makefiles

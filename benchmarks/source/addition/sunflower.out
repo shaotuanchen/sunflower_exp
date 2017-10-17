@@ -1,0 +1,21 @@
+
+
+Tag Exit{
+Random seed used = [2061521191]
+
+
+Tag Exit{
+Node0		User Time elapsed = 0.004094 seconds.
+Node0		Instruction Simulation Rate = 0.00 Cycles/Second.
+Node0		"machinetype"	=	0
+Node0		"Cycletrans"	=	62
+Node0		"CYCLETIME"	=	1.666667E-08
+Node0		NTRANS	=	1068725
+Node0		CPU-only ETOT	=	1.956623E-04 Joules
+Node0		CPU-only AVG POWER	=	7.965085E-01 Watts
+Node0		"ICLK"	=	14739
+Node0		"CLK"	=	14739
+Node0		"TIME"	=	2.456500E-04
+Node0		"dyncnt"	=	10788
+} Tag Exit.
+} Tag Exit.

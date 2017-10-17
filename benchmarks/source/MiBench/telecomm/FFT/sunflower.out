@@ -1,0 +1,84 @@
+
+
+Tag Exit{
+Random seed used = [519619136]
+
+
+Tag Exit{
+Node0		User Time elapsed = 43.352608 seconds.
+Node0		Instruction Simulation Rate = 0.00 Cycles/Second.
+Node0		"machinetype"	=	0
+Node0		"Cycletrans"	=	46
+Node0		"CYCLETIME"	=	1.666667E-08
+Node0		NTRANS	=	10495460591
+Node0		CPU-only ETOT	=	2.472102E+00 Joules
+Node0		CPU-only AVG POWER	=	8.411383E-01 Watts
+Node0		"ICLK"	=	176339772
+Node0		"CLK"	=	176339779
+Node0		"TIME"	=	2.938996E+00
+Node0		"dyncnt"	=	176339795
+} Tag Exit.
+} Tag Exit.
+
+
+Tag Exit{
+Random seed used = [-367460128]
+
+
+Tag Exit{
+Node0		User Time elapsed = 6.562521 seconds.
+Node0		Instruction Simulation Rate = 2845627.77 Cycles/Second.
+Node0		"machinetype"	=	0
+Node0		"Cycletrans"	=	0
+Node0		"CYCLETIME"	=	1.666667E-08
+Node0		NTRANS	=	1300466037
+Node0		CPU-only ETOT	=	2.370927E-01 Joules
+Node0		CPU-only AVG POWER	=	7.617643E-01 Watts
+Node0		"ICLK"	=	18674493
+Node0		"CLK"	=	18674493
+Node0		"TIME"	=	3.112415E-01
+Node0		"dyncnt"	=	13436237
+} Tag Exit.
+} Tag Exit.
+
+
+Tag Exit{
+Random seed used = [-1522257778]
+
+
+Tag Exit{
+Node0		User Time elapsed = 19.141384 seconds.
+Node0		Instruction Simulation Rate = 4326605.01 Cycles/Second.
+Node0		"machinetype"	=	0
+Node0		"Cycletrans"	=	0
+Node0		"CYCLETIME"	=	1.666667E-08
+Node0		NTRANS	=	5777048674
+Node0		CPU-only ETOT	=	1.053044E+00 Joules
+Node0		CPU-only AVG POWER	=	7.629166E-01 Watts
+Node0		"ICLK"	=	82817205
+Node0		"CLK"	=	82817205
+Node0		"TIME"	=	1.380287E+00
+Node0		"dyncnt"	=	59663674
+} Tag Exit.
+} Tag Exit.
+
+
+Tag Exit{
+Random seed used = [1896734900]
+
+
+Tag Exit{
+Node0		User Time elapsed = 8.582047 seconds.
+Node0		Instruction Simulation Rate = 4031675.89 Cycles/Second.
+Node0		"machinetype"	=	0
+Node0		"Cycletrans"	=	0
+Node0		"CYCLETIME"	=	1.666667E-08
+Node0		NTRANS	=	2058921737
+Node0		CPU-only ETOT	=	4.850574E-01 Joules
+Node0		CPU-only AVG POWER	=	8.411393E-01 Watts
+Node0		"ICLK"	=	34600032
+Node0		"CLK"	=	34600032
+Node0		"TIME"	=	5.766672E-01
+Node0		"dyncnt"	=	34600032
+} Tag Exit.
+} Tag Exit.

@@ -1,0 +1,571 @@
+Archive member included because of file (symbol)
+
+../../../../sys/libOS/eOS/libeOS-superH.a(print.o)
+                              devnet.o (print)
+../../../../sys/libOS/eOS/libeOS-superH.a(strlen.o)
+                              devlog.o (strlen)
+../../../../sys/libOS/eOS/libeOS-superH.a(memmove.o)
+                              swradiosink.o (memmove)
+../../../../tools/tools-lib/superH/libc.a(printf.o)
+                              swradiosink.o (printf)
+../../../../tools/tools-lib/superH/libc.a(impure.o)
+                              ../../../../tools/tools-lib/superH/libc.a(printf.o) (_impure_ptr)
+../../../../tools/tools-lib/superH/libc.a(vfprintf.o)
+                              ../../../../tools/tools-lib/superH/libc.a(printf.o) (vfprintf)
+../../../../tools/tools-lib/superH/libc.a(fvwrite.o)
+                              ../../../../tools/tools-lib/superH/libc.a(vfprintf.o) (__sfvwrite)
+../../../../tools/tools-lib/superH/libc.a(findfp.o)
+                              ../../../../tools/tools-lib/superH/libc.a(vfprintf.o) (__sinit)
+../../../../tools/tools-lib/superH/libc.a(locale.o)
+                              ../../../../tools/tools-lib/superH/libc.a(vfprintf.o) (localeconv)
+../../../../tools/tools-lib/superH/libc.a(wsetup.o)
+                              ../../../../tools/tools-lib/superH/libc.a(vfprintf.o) (__swsetup)
+../../../../tools/tools-lib/superH/libc.a(fflush.o)
+                              ../../../../tools/tools-lib/superH/libc.a(vfprintf.o) (fflush)
+../../../../tools/tools-lib/superH/libc.a(mbtowc_r.o)
+                              ../../../../tools/tools-lib/superH/libc.a(vfprintf.o) (_mbtowc_r)
+../../../../tools/tools-lib/superH/libc.a(s_isinf.o)
+                              ../../../../tools/tools-lib/superH/libc.a(vfprintf.o) (isinf)
+../../../../tools/tools-lib/superH/libc.a(s_isnan.o)
+                              ../../../../tools/tools-lib/superH/libc.a(vfprintf.o) (isnan)
+../../../../tools/tools-lib/superH/libc.a(dtoa.o)
+                              ../../../../tools/tools-lib/superH/libc.a(vfprintf.o) (_dtoa_r)
+../../../../tools/tools-lib/superH/libc.a(memchr.o)
+                              ../../../../tools/tools-lib/superH/libc.a(vfprintf.o) (memchr)
+../../../../tools/tools-lib/superH/libc.a(stdio.o)
+                              ../../../../tools/tools-lib/superH/libc.a(findfp.o) (__sclose)
+../../../../tools/tools-lib/superH/libc.a(fwalk.o)
+                              ../../../../tools/tools-lib/superH/libc.a(findfp.o) (_fwalk)
+../../../../tools/tools-lib/superH/libc.a(mallocr.o)
+                              ../../../../tools/tools-lib/superH/libc.a(findfp.o) (_malloc_r)
+../../../../tools/tools-lib/superH/libc.a(memset.o)
+                              ../../../../tools/tools-lib/superH/libc.a(findfp.o) (memset)
+../../../../tools/tools-lib/superH/libc.a(strcmp.o)
+                              ../../../../tools/tools-lib/superH/libc.a(locale.o) (strcmp)
+../../../../tools/tools-lib/superH/libc.a(freer.o)
+                              ../../../../tools/tools-lib/superH/libc.a(wsetup.o) (_free_r)
+../../../../tools/tools-lib/superH/libc.a(makebuf.o)
+                              ../../../../tools/tools-lib/superH/libc.a(wsetup.o) (__smakebuf)
+../../../../tools/tools-lib/superH/libc.a(mprec.o)
+                              ../../../../tools/tools-lib/superH/libc.a(dtoa.o) (_Bfree)
+../../../../tools/tools-lib/superH/libc.a(memcpy.o)
+                              ../../../../tools/tools-lib/superH/libc.a(dtoa.o) (memcpy)
+../../../../tools/tools-lib/superH/libc.a(closer.o)
+                              ../../../../tools/tools-lib/superH/libc.a(stdio.o) (_close_r)
+../../../../tools/tools-lib/superH/libc.a(lseekr.o)
+                              ../../../../tools/tools-lib/superH/libc.a(stdio.o) (_lseek_r)
+../../../../tools/tools-lib/superH/libc.a(writer.o)
+                              ../../../../tools/tools-lib/superH/libc.a(stdio.o) (_write_r)
+../../../../tools/tools-lib/superH/libc.a(readr.o)
+                              ../../../../tools/tools-lib/superH/libc.a(stdio.o) (_read_r)
+../../../../tools/tools-lib/superH/libc.a(mlock.o)
+                              ../../../../tools/tools-lib/superH/libc.a(mallocr.o) (__malloc_lock)
+../../../../tools/tools-lib/superH/libc.a(sbrkr.o)
+                              ../../../../tools/tools-lib/superH/libc.a(mallocr.o) (_sbrk_r)
+../../../../tools/tools-lib/superH/libc.a(fstatr.o)
+                              ../../../../tools/tools-lib/superH/libc.a(makebuf.o) (_fstat_r)
+../../../../tools/tools-lib/superH/libc.a(syscalls.o)
+                              ../../../../tools/tools-lib/superH/libc.a(fstatr.o) (_fstat)
+../../../../tools/tools-lib/superH/libc.a(callocr.o)
+                              ../../../../tools/tools-lib/superH/libc.a(mprec.o) (_calloc_r)
+../../../../tools/tools-lib/superH/libc.a(trap.o)
+                              ../../../../tools/tools-lib/superH/libc.a(syscalls.o) (__trap34)
+../../../../tools/tools-lib/superH/libc.a(abort.o)
+                              ../../../../tools/tools-lib/superH/libc.a(syscalls.o) (abort)
+../../../../tools/tools-lib/superH/libc.a(signal.o)
+                              ../../../../tools/tools-lib/superH/libc.a(abort.o) (raise)
+../../../../tools/tools-lib/superH/libc.a(signalr.o)
+                              ../../../../tools/tools-lib/superH/libc.a(signal.o) (_getpid_r)
+../../../../tools/tools-lib/superH/libgcc.a(_ashiftrt.o)
+                              devnet.o (__ashiftrt_r4_8)
+../../../../tools/tools-lib/superH/libgcc.a(_si_to_df.o)
+                              devnet.o (__floatsidf)
+../../../../tools/tools-lib/superH/libgcc.a(_mul_df.o)
+                              devnet.o (__muldf3)
+../../../../tools/tools-lib/superH/libgcc.a(_usi_to_df.o)
+                              devnet.o (__floatunsidf)
+../../../../tools/tools-lib/superH/libgcc.a(_div_df.o)
+                              devnet.o (__divdf3)
+../../../../tools/tools-lib/superH/libgcc.a(_df_to_si.o)
+                              devnet.o (__fixdfsi)
+../../../../tools/tools-lib/superH/libgcc.a(_sf_to_df.o)
+                              swradiosink.o (__extendsfdf2)
+../../../../tools/tools-lib/superH/libgcc.a(_mulsi3.o)
+                              swradiosink.o (__mulsi3)
+../../../../tools/tools-lib/superH/libgcc.a(_sdivsi3.o)
+                              ../../../../sys/libOS/eOS/libeOS-superH.a(print.o) (__sdivsi3)
+../../../../tools/tools-lib/superH/libgcc.a(_lt_df.o)
+                              ../../../../tools/tools-lib/superH/libc.a(vfprintf.o) (__ltdf2)
+../../../../tools/tools-lib/superH/libgcc.a(_ne_df.o)
+                              ../../../../tools/tools-lib/superH/libc.a(vfprintf.o) (__nedf2)
+../../../../tools/tools-lib/superH/libgcc.a(_eq_df.o)
+                              ../../../../tools/tools-lib/superH/libc.a(vfprintf.o) (__eqdf2)
+../../../../tools/tools-lib/superH/libgcc.a(_udivsi3.o)
+                              ../../../../tools/tools-lib/superH/libc.a(vfprintf.o) (__udivsi3)
+../../../../tools/tools-lib/superH/libgcc.a(_ashiftlt.o)
+                              ../../../../tools/tools-lib/superH/libc.a(dtoa.o) (__ashlsi3)
+../../../../tools/tools-lib/superH/libgcc.a(_lshiftrt.o)
+                              ../../../../tools/tools-lib/superH/libc.a(dtoa.o) (__lshrsi3)
+../../../../tools/tools-lib/superH/libgcc.a(_addsub_df.o)
+                              ../../../../tools/tools-lib/superH/libc.a(dtoa.o) (__subdf3)
+../../../../tools/tools-lib/superH/libgcc.a(_gt_df.o)
+                              ../../../../tools/tools-lib/superH/libc.a(dtoa.o) (__gtdf2)
+../../../../tools/tools-lib/superH/libgcc.a(_ge_df.o)
+                              ../../../../tools/tools-lib/superH/libc.a(dtoa.o) (__gedf2)
+../../../../tools/tools-lib/superH/libgcc.a(_ashiftrt_n.o)
+                              ../../../../tools/tools-lib/superH/libc.a(mprec.o) (__ashrsi3)
+../../../../tools/tools-lib/superH/libgcc.a(_pack_df.o)
+                              ../../../../tools/tools-lib/superH/libgcc.a(_si_to_df.o) (__pack_d)
+../../../../tools/tools-lib/superH/libgcc.a(_clzsi2.o)
+                              ../../../../tools/tools-lib/superH/libgcc.a(_si_to_df.o) (__clzsi2)
+../../../../tools/tools-lib/superH/libgcc.a(_ashldi3.o)
+                              ../../../../tools/tools-lib/superH/libgcc.a(_si_to_df.o) (__ashldi3)
+../../../../tools/tools-lib/superH/libgcc.a(_unpack_df.o)
+                              ../../../../tools/tools-lib/superH/libgcc.a(_mul_df.o) (__unpack_d)
+../../../../tools/tools-lib/superH/libgcc.a(_muldi3.o)
+                              ../../../../tools/tools-lib/superH/libgcc.a(_mul_df.o) (__muldi3)
+../../../../tools/tools-lib/superH/libgcc.a(_thenan_df.o)
+                              ../../../../tools/tools-lib/superH/libgcc.a(_mul_df.o) (__thenan_df)
+../../../../tools/tools-lib/superH/libgcc.a(_lshrdi3.o)
+                              ../../../../tools/tools-lib/superH/libgcc.a(_usi_to_df.o) (__lshrdi3)
+../../../../tools/tools-lib/superH/libgcc.a(_unpack_sf.o)
+                              ../../../../tools/tools-lib/superH/libgcc.a(_sf_to_df.o) (__unpack_f)
+../../../../tools/tools-lib/superH/libgcc.a(_make_df.o)
+                              ../../../../tools/tools-lib/superH/libgcc.a(_sf_to_df.o) (__make_dp)
+../../../../tools/tools-lib/superH/libgcc.a(_fpcmp_parts_df.o)
+                              ../../../../tools/tools-lib/superH/libgcc.a(_lt_df.o) (__fpcmp_parts_d)
+../../../../tools/tools-lib/superH/libgcc.a(_clz.o)
+                              ../../../../tools/tools-lib/superH/libgcc.a(_clzsi2.o) (__clz_tab)
+
+Allocating common symbols
+Common symbol       size              file
+
+fb4                 0x208             swradiosink.o
+rxbuf               0x30d40           swradiosink.o
+REGSAVESTACK        0x24              swradiosink.o
+done_flag           0x4               swradiosink.o
+errno               0x4               ../../../../tools/tools-lib/superH/libc.a(sbrkr.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+Address of section .text set to 0x8004000
+
+.text           0x0000000008004000     0x7630
+                0x0000000008004000                _text = .
+ *(.text)
+ .text          0x0000000008004000      0x100 init.o
+                0x000000000800403e                getssr
+                0x000000000800404a                getgbr
+                0x00000000080040e4                sleep
+                0x0000000008004070                vec_stub_begin
+                0x0000000008004038                getpsr
+                0x0000000008004050                getvbr
+                0x0000000008004062                getmach
+                0x0000000008004020                spllo
+                0x000000000800405c                getpr
+                0x0000000008004044                getspc
+                0x0000000008004032                spldone
+                0x0000000008004068                getmacl
+                0x0000000008004010                splhi
+                0x00000000080040e4                vec_stub_end
+                0x0000000008004056                getsp
+ .text          0x0000000008004100      0x6b0 devnet.o
+                0x0000000008004100                devnet_getcurifc
+                0x000000000800421c                devnet_getncsense
+                0x0000000008004150                devnet_getmaxfsz
+                0x0000000008004350                devnet_xmit
+                0x0000000008004194                devnet_getrxfsz
+                0x00000000080042d0                devnet_ctl
+                0x00000000080041d8                devnet_getncolls
+                0x000000000800469c                devnet_framedelay
+                0x00000000080042a4                devnet_recv
+                0x0000000008004260                devnet_getspeed
+                0x000000000800410c                devnet_getncr
+ .text          0x00000000080047b0       0x50 devrtc.o
+                0x00000000080047b0                devrtc_getusecs
+ .text          0x0000000008004800       0x10 devexcp.o
+                0x0000000008004800                devexcp_getintevt
+ .text          0x0000000008004810       0x60 devrand.o
+                0x000000000800485c                devrand_seed
+                0x0000000008004810                devrand_getrand
+ .text          0x0000000008004870       0x60 devlog.o
+                0x0000000008004870                devlog_ctl
+ .text          0x00000000080048d0       0xd0 misc.o
+                0x0000000008004958                xusleep
+                0x0000000008004938                pow10
+                0x0000000008004908                xudelay
+                0x00000000080048f4                devlogprintputc
+                0x00000000080048d0                sccputc
+ .text          0x00000000080049a0      0x400 swradiosink.o
+                0x0000000008004a58                nic_hdlr
+                0x0000000008004c30                startup
+                0x0000000008004b98                write_floats
+                0x0000000008004b60                intr_hdlr
+ .text          0x0000000008004da0       0xc0 swradio-common.o
+                0x0000000008004e04                fb_ensure_writable
+                0x0000000008004da0                fb_compact
+ .text          0x0000000008004e60      0x620 ../../../../sys/libOS/eOS/libeOS-superH.a(print.o)
+                0x00000000080053a0                sprint
+                0x00000000080053d8                fprint
+                0x0000000008005410                lprint
+                0x000000000800536c                snprint
+                0x0000000008005448                print
+ .text          0x0000000008005480       0x20 ../../../../sys/libOS/eOS/libeOS-superH.a(strlen.o)
+                0x0000000008005480                strlen
+ .text          0x00000000080054a0       0x60 ../../../../sys/libOS/eOS/libeOS-superH.a(memmove.o)
+                0x00000000080054a0                memmove
+ .text          0x0000000008005500       0x80 ../../../../tools/tools-lib/superH/libc.a(printf.o)
+                0x0000000008005544                _printf_r
+                0x0000000008005500                printf
+ .text          0x0000000008005580       0x10 ../../../../tools/tools-lib/superH/libc.a(impure.o)
+ .text          0x0000000008005590     0x1280 ../../../../tools/tools-lib/superH/libc.a(vfprintf.o)
+                0x0000000008005672                _vfprintf_r
+                0x00000000080055c0                vfprintf
+ .text          0x0000000008006810      0x240 ../../../../tools/tools-lib/superH/libc.a(fvwrite.o)
+                0x0000000008006810                __sfvwrite
+ .text          0x0000000008006a50      0x1e0 ../../../../tools/tools-lib/superH/libc.a(findfp.o)
+                0x0000000008006b90                __sfp
+                0x0000000008006a98                __sinit
+                0x0000000008006b20                _cleanup
+                0x0000000008006b08                _cleanup_r
+                0x0000000008006b38                __sfmoreglue
+ .text          0x0000000008006c30       0xd0 ../../../../tools/tools-lib/superH/libc.a(locale.o)
+                0x0000000008006c9c                setlocale
+                0x0000000008006c46                _setlocale_r
+                0x0000000008006cbc                localeconv
+                0x0000000008006c30                _localeconv_r
+ .text          0x0000000008006d00       0xd0 ../../../../tools/tools-lib/superH/libc.a(wsetup.o)
+                0x0000000008006d00                __swsetup
+ .text          0x0000000008006dd0       0xc0 ../../../../tools/tools-lib/superH/libc.a(fflush.o)
+                0x0000000008006dd0                fflush
+ .text          0x0000000008006e90       0x40 ../../../../tools/tools-lib/superH/libc.a(mbtowc_r.o)
+                0x0000000008006e90                _mbtowc_r
+ .text          0x0000000008006ed0       0x30 ../../../../tools/tools-lib/superH/libc.a(s_isinf.o)
+                0x0000000008006ed0                isinf
+ .text          0x0000000008006f00       0x30 ../../../../tools/tools-lib/superH/libc.a(s_isnan.o)
+                0x0000000008006f00                isnan
+ .text          0x0000000008006f30     0x1020 ../../../../tools/tools-lib/superH/libc.a(dtoa.o)
+                0x00000000080070ca                _dtoa_r
+ .text          0x0000000008007f50       0x30 ../../../../tools/tools-lib/superH/libc.a(memchr.o)
+                0x0000000008007f50                memchr
+ .text          0x0000000008007f80      0x120 ../../../../tools/tools-lib/superH/libc.a(stdio.o)
+                0x0000000008007fec                __swrite
+                0x0000000008007f80                __sclose
+                0x0000000008008054                __sread
+                0x0000000008007f9c                __sseek
+ .text          0x00000000080080a0       0x60 ../../../../tools/tools-lib/superH/libc.a(fwalk.o)
+                0x00000000080080a0                _fwalk
+ .text          0x0000000008008100      0x4f0 ../../../../tools/tools-lib/superH/libc.a(mallocr.o)
+                0x0000000008008100                _malloc_r
+ .text          0x00000000080085f0       0x40 ../../../../tools/tools-lib/superH/libc.a(memset.o)
+                0x00000000080085f0                memset
+ .text          0x0000000008008630       0x30 ../../../../tools/tools-lib/superH/libc.a(strcmp.o)
+                0x0000000008008630                strcmp
+ .text          0x0000000008008660      0x2d0 ../../../../tools/tools-lib/superH/libc.a(freer.o)
+                0x0000000008008660                _malloc_trim_r
+                0x0000000008008728                _free_r
+ .text          0x0000000008008930      0x110 ../../../../tools/tools-lib/superH/libc.a(makebuf.o)
+                0x0000000008008930                __smakebuf
+ .text          0x0000000008008a40      0xbe0 ../../../../tools/tools-lib/superH/libc.a(mprec.o)
+                0x0000000008008b36                __mcmp
+                0x0000000008008cdc                _ratio
+                0x0000000008009290                _i2b
+                0x0000000008008be4                _b2d
+                0x0000000008009438                _s2b
+                0x0000000008008a5e                _hi0bits
+                0x0000000008009378                _pow5mult
+                0x0000000008008f54                __mdiff
+                0x0000000008009044                _lshift
+                0x0000000008009120                _multiply
+                0x0000000008008e44                _d2b
+                0x0000000008008dbc                _Balloc
+                0x00000000080095e0                __mprec_tinytens
+                0x0000000008008d5c                _mprec_log10
+                0x00000000080095b8                __mprec_bigtens
+                0x0000000008008b70                _ulp
+                0x0000000008008a40                _Bfree
+                0x00000000080094f0                __mprec_tens
+                0x0000000008008ab8                _lo0bits
+                0x00000000080092b4                _multadd
+ .text          0x0000000008009620       0xa0 ../../../../tools/tools-lib/superH/libc.a(memcpy.o)
+                0x0000000008009620                memcpy
+ .text          0x00000000080096c0       0x40 ../../../../tools/tools-lib/superH/libc.a(closer.o)
+                0x00000000080096c0                _close_r
+ .text          0x0000000008009700       0x40 ../../../../tools/tools-lib/superH/libc.a(lseekr.o)
+                0x0000000008009700                _lseek_r
+ .text          0x0000000008009740       0x40 ../../../../tools/tools-lib/superH/libc.a(writer.o)
+                0x0000000008009740                _write_r
+ .text          0x0000000008009780       0x40 ../../../../tools/tools-lib/superH/libc.a(readr.o)
+                0x0000000008009780                _read_r
+ .text          0x00000000080097c0       0x20 ../../../../tools/tools-lib/superH/libc.a(mlock.o)
+                0x00000000080097c0                __malloc_lock
+                0x00000000080097ca                __malloc_unlock
+ .text          0x00000000080097e0       0x40 ../../../../tools/tools-lib/superH/libc.a(sbrkr.o)
+                0x00000000080097e0                _sbrk_r
+ .text          0x0000000008009820       0x40 ../../../../tools/tools-lib/superH/libc.a(fstatr.o)
+                0x0000000008009820                _fstat_r
+ .text          0x0000000008009860      0x280 ../../../../tools/tools-lib/superH/libc.a(syscalls.o)
+                0x00000000080099a4                _exit
+                0x0000000008009896                _getpid
+                0x000000000800991c                _utime
+                0x0000000008009a0c                _write
+                0x0000000008009a44                _read
+                0x000000000800987e                _unlink
+                0x00000000080099d8                _open
+                0x000000000800996c                _stat
+                0x000000000800988a                isatty
+                0x00000000080098f4                _wait
+                0x0000000008009988                _kill
+                0x0000000008009954                _chmod
+                0x00000000080098c0                _execv
+                0x00000000080098d8                _execve
+                0x0000000008009860                _link
+                0x00000000080098a2                _raise
+                0x00000000080099bc                _creat
+                0x00000000080098ac                _pipe
+                0x0000000008009938                _chown
+                0x0000000008009a28                _lseek
+                0x00000000080099f4                _close
+                0x000000000800986c                _fstat
+                0x0000000008009908                _fork
+                0x0000000008009a7a                _sbrk
+ .text          0x0000000008009ae0       0x90 ../../../../tools/tools-lib/superH/libc.a(callocr.o)
+                0x0000000008009ae0                _calloc_r
+ .text          0x0000000008009b70       0x20 ../../../../tools/tools-lib/superH/libc.a(trap.o)
+                0x0000000008009b70                __trap34
+ .text          0x0000000008009b90       0x20 ../../../../tools/tools-lib/superH/libc.a(abort.o)
+                0x0000000008009b90                abort
+ .text          0x0000000008009bb0      0x210 ../../../../tools/tools-lib/superH/libc.a(signal.o)
+                0x0000000008009c90                _raise_r
+                0x0000000008009c74                __sigtramp
+                0x0000000008009d24                raise
+                0x0000000008009bf8                _init_signal
+                0x0000000008009c10                __sigtramp_r
+                0x0000000008009d98                signal
+                0x0000000008009d40                _signal_r
+                0x0000000008009bb0                _init_signal_r
+ .text          0x0000000008009dc0       0x50 ../../../../tools/tools-lib/superH/libc.a(signalr.o)
+                0x0000000008009dc0                _getpid_r
+                0x0000000008009dd0                _kill_r
+ .text          0x0000000008009e10       0x60 ../../../../tools/tools-lib/superH/libgcc.a(_ashiftrt.o)
+                0x0000000008009e1c                __ashiftrt_r4_27
+                0x0000000008009e50                __ashiftrt_r4_6
+                0x0000000008009e40                __ashiftrt_r4_14
+                0x0000000008009e32                __ashiftrt_r4_19
+                0x0000000008009e4a                __ashiftrt_r4_9
+                0x0000000008009e5e                __ashiftrt_r4_0
+                0x0000000008009e10                __ashiftrt_r4_31
+                0x0000000008009e1e                __ashiftrt_r4_26
+                0x0000000008009e2c                __ashiftrt_r4_22
+                0x0000000008009e38                __ashiftrt_r4_16
+                0x0000000008009e44                __ashiftrt_r4_12
+                0x0000000008009e18                __ashiftrt_r4_29
+                0x0000000008009e36                __ashiftrt_r4_17
+                0x0000000008009e16                __ashiftrt_r4_30
+                0x0000000008009e52                __ashiftrt_r4_5
+                0x0000000008009e4c                __ashiftrt_r4_8
+                0x0000000008009e10                __ashiftrt_r4_32
+                0x0000000008009e20                __ashiftrt_r4_25
+                0x0000000008009e58                __ashiftrt_r4_2
+                0x0000000008009e22                __ashiftrt_r4_24
+                0x0000000008009e3e                __ashiftrt_r4_15
+                0x0000000008009e48                __ashiftrt_r4_10
+                0x0000000008009e5a                __ashiftrt_r4_1
+                0x0000000008009e1a                __ashiftrt_r4_28
+                0x0000000008009e30                __ashiftrt_r4_20
+                0x0000000008009e4e                __ashiftrt_r4_7
+                0x0000000008009e42                __ashiftrt_r4_13
+                0x0000000008009e46                __ashiftrt_r4_11
+                0x0000000008009e54                __ashiftrt_r4_4
+                0x0000000008009e2a                __ashiftrt_r4_23
+                0x0000000008009e34                __ashiftrt_r4_18
+                0x0000000008009e2e                __ashiftrt_r4_21
+                0x0000000008009e56                __ashiftrt_r4_3
+ .text          0x0000000008009e70       0xa0 ../../../../tools/tools-lib/superH/libgcc.a(_si_to_df.o)
+                0x0000000008009e70                __floatsidf
+ .text          0x0000000008009f10      0x300 ../../../../tools/tools-lib/superH/libgcc.a(_mul_df.o)
+                0x0000000008009f10                __muldf3
+ .text          0x000000000800a210       0xd0 ../../../../tools/tools-lib/superH/libgcc.a(_usi_to_df.o)
+                0x000000000800a210                __floatunsidf
+ .text          0x000000000800a2e0      0x190 ../../../../tools/tools-lib/superH/libgcc.a(_div_df.o)
+                0x000000000800a2e0                __divdf3
+ .text          0x000000000800a470       0x90 ../../../../tools/tools-lib/superH/libgcc.a(_df_to_si.o)
+                0x000000000800a470                __fixdfsi
+ .text          0x000000000800a500       0x50 ../../../../tools/tools-lib/superH/libgcc.a(_sf_to_df.o)
+                0x000000000800a500                __extendsfdf2
+ .text          0x000000000800a550       0x30 ../../../../tools/tools-lib/superH/libgcc.a(_mulsi3.o)
+                0x000000000800a550                __mulsi3
+ .text          0x000000000800a580       0xa0 ../../../../tools/tools-lib/superH/libgcc.a(_sdivsi3.o)
+                0x000000000800a580                __sdivsi3
+ .text          0x000000000800a620       0x70 ../../../../tools/tools-lib/superH/libgcc.a(_lt_df.o)
+                0x000000000800a620                __ltdf2
+ .text          0x000000000800a690       0x70 ../../../../tools/tools-lib/superH/libgcc.a(_ne_df.o)
+                0x000000000800a690                __nedf2
+ .text          0x000000000800a700       0x70 ../../../../tools/tools-lib/superH/libgcc.a(_eq_df.o)
+                0x000000000800a700                __eqdf2
+ .text          0x000000000800a770       0x70 ../../../../tools/tools-lib/superH/libgcc.a(_udivsi3.o)
+                0x000000000800a792                __udivsi3
+ .text          0x000000000800a7e0       0x90 ../../../../tools/tools-lib/superH/libgcc.a(_ashiftlt.o)
+                0x000000000800a7e0                __ashlsi3
+ .text          0x000000000800a870       0x90 ../../../../tools/tools-lib/superH/libgcc.a(_lshiftrt.o)
+                0x000000000800a870                __lshrsi3
+ .text          0x000000000800a900      0x390 ../../../../tools/tools-lib/superH/libgcc.a(_addsub_df.o)
+                0x000000000800abc8                __subdf3
+                0x000000000800ac30                __adddf3
+ .text          0x000000000800ac90       0x70 ../../../../tools/tools-lib/superH/libgcc.a(_gt_df.o)
+                0x000000000800ac90                __gtdf2
+ .text          0x000000000800ad00       0x70 ../../../../tools/tools-lib/superH/libgcc.a(_ge_df.o)
+                0x000000000800ad00                __gedf2
+ .text          0x000000000800ad70       0x90 ../../../../tools/tools-lib/superH/libgcc.a(_ashiftrt_n.o)
+                0x000000000800ad70                __ashrsi3
+ .text          0x000000000800ae00      0x1f0 ../../../../tools/tools-lib/superH/libgcc.a(_pack_df.o)
+                0x000000000800ae00                __pack_d
+ .text          0x000000000800aff0       0xa0 ../../../../tools/tools-lib/superH/libgcc.a(_clzsi2.o)
+                0x000000000800aff0                __clzsi2
+ .text          0x000000000800b090       0x80 ../../../../tools/tools-lib/superH/libgcc.a(_ashldi3.o)
+                0x000000000800b090                __ashldi3
+ .text          0x000000000800b110      0x100 ../../../../tools/tools-lib/superH/libgcc.a(_unpack_df.o)
+                0x000000000800b110                __unpack_d
+ .text          0x000000000800b210       0xd0 ../../../../tools/tools-lib/superH/libgcc.a(_muldi3.o)
+                0x000000000800b210                __muldi3
+ .text          0x000000000800b2e0       0x20 ../../../../tools/tools-lib/superH/libgcc.a(_thenan_df.o)
+                0x000000000800b2e0                __thenan_df
+ .text          0x000000000800b300       0x80 ../../../../tools/tools-lib/superH/libgcc.a(_lshrdi3.o)
+                0x000000000800b300                __lshrdi3
+ .text          0x000000000800b380       0xb0 ../../../../tools/tools-lib/superH/libgcc.a(_unpack_sf.o)
+                0x000000000800b380                __unpack_f
+ .text          0x000000000800b430       0x40 ../../../../tools/tools-lib/superH/libgcc.a(_make_df.o)
+                0x000000000800b430                __make_dp
+ .text          0x000000000800b470       0xc0 ../../../../tools/tools-lib/superH/libgcc.a(_fpcmp_parts_df.o)
+                0x000000000800b470                __fpcmp_parts_d
+ .text          0x000000000800b530      0x100 ../../../../tools/tools-lib/superH/libgcc.a(_clz.o)
+                0x000000000800b530                __clz_tab
+ *(.strings)
+                0x000000000800b630                _etext = .
+
+.data           0x000000000800b630      0x720
+                0x000000000800b630                _data = .
+ *(.data)
+ .data          0x000000000800b630       0x10 swradiosink.o
+                0x000000000800b630                my_id
+ .data          0x000000000800b640      0x2f0 ../../../../tools/tools-lib/superH/libc.a(impure.o)
+                0x000000000800b640                _impure_ptr
+ .data          0x000000000800b930       0x10 ../../../../tools/tools-lib/superH/libc.a(locale.o)
+                0x000000000800b930                __mb_cur_max
+ .data          0x000000000800b940      0x410 ../../../../tools/tools-lib/superH/libc.a(mallocr.o)
+                0x000000000800b940                __malloc_av_
+                0x000000000800bd48                __malloc_trim_threshold
+                0x000000000800bd4c                __malloc_sbrk_base
+                0x000000000800bd50                _edata = .
+
+.bss            0x000000000800bd50    0x30fe4
+                0x000000000800bd50                _bss = .
+ *(.bss)
+ .bss           0x000000000800bd50       0x10 swradiosink.o
+                0x000000000800bd50                syn_sent_flag
+                0x000000000800bd54                sample_flag
+                0x000000000800bd58                rx_sample_count
+ .bss           0x000000000800bd60       0x40 ../../../../tools/tools-lib/superH/libc.a(mallocr.o)
+                0x000000000800bd60                __malloc_top_pad
+                0x000000000800bd6c                __malloc_current_mallinfo
+                0x000000000800bd64                __malloc_max_sbrked_mem
+                0x000000000800bd68                __malloc_max_total_mem
+ .bss           0x000000000800bda0       0x10 ../../../../tools/tools-lib/superH/libc.a(syscalls.o)
+ *(COMMON)
+ COMMON         0x000000000800bdb0    0x30f78 swradiosink.o
+                0x000000000800bdb0                fb4
+                0x000000000800bfc0                rxbuf
+                0x000000000803cd00                REGSAVESTACK
+                0x000000000803cd24                done_flag
+ *fill*         0x000000000803cd28        0x8 00
+ COMMON         0x000000000803cd30        0x4 ../../../../tools/tools-lib/superH/libc.a(sbrkr.o)
+                0x000000000803cd30                errno
+                0x000000000803cd34                _ebss = .
+                0x000000000803cd34                _end = .
+LOAD init.o
+LOAD devnet.o
+LOAD devrtc.o
+LOAD devexcp.o
+LOAD devrand.o
+LOAD devlog.o
+LOAD misc.o
+LOAD swradiosink.o
+LOAD swradio-common.o
+LOAD ../../../../sys/libOS/mOS/libmOS-superH.a
+LOAD ../../../../sys/libOS/eOS/libeOS-superH.a
+LOAD ../../../../tools/tools-lib/superH/libc.a
+LOAD ../../../../tools/tools-lib/superH/libm.a
+LOAD ../../../../tools/tools-lib/superH/libgcc.a
+OUTPUT(swradiosink coff-sh)
+
+.comment        0x000000000803cd40      0x820
+ .comment       0x000000000803cd40       0x20 devnet.o
+ .comment       0x000000000803cd60       0x20 devrtc.o
+ .comment       0x000000000803cd80       0x20 devexcp.o
+ .comment       0x000000000803cda0       0x20 devrand.o
+ .comment       0x000000000803cdc0       0x20 devlog.o
+ .comment       0x000000000803cde0       0x20 misc.o
+ .comment       0x000000000803ce00       0x20 swradiosink.o
+ .comment       0x000000000803ce20       0x20 swradio-common.o
+ .comment       0x000000000803ce40       0x20 ../../../../sys/libOS/eOS/libeOS-superH.a(print.o)
+ .comment       0x000000000803ce60       0x20 ../../../../sys/libOS/eOS/libeOS-superH.a(strlen.o)
+ .comment       0x000000000803ce80       0x20 ../../../../sys/libOS/eOS/libeOS-superH.a(memmove.o)
+ .comment       0x000000000803cea0       0x20 ../../../../tools/tools-lib/superH/libc.a(printf.o)
+ .comment       0x000000000803cec0       0x20 ../../../../tools/tools-lib/superH/libc.a(impure.o)
+ .comment       0x000000000803cee0       0x20 ../../../../tools/tools-lib/superH/libc.a(vfprintf.o)
+ .comment       0x000000000803cf00       0x20 ../../../../tools/tools-lib/superH/libc.a(fvwrite.o)
+ .comment       0x000000000803cf20       0x20 ../../../../tools/tools-lib/superH/libc.a(findfp.o)
+ .comment       0x000000000803cf40       0x20 ../../../../tools/tools-lib/superH/libc.a(locale.o)
+ .comment       0x000000000803cf60       0x20 ../../../../tools/tools-lib/superH/libc.a(wsetup.o)
+ .comment       0x000000000803cf80       0x20 ../../../../tools/tools-lib/superH/libc.a(fflush.o)
+ .comment       0x000000000803cfa0       0x20 ../../../../tools/tools-lib/superH/libc.a(mbtowc_r.o)
+ .comment       0x000000000803cfc0       0x20 ../../../../tools/tools-lib/superH/libc.a(s_isinf.o)
+ .comment       0x000000000803cfe0       0x20 ../../../../tools/tools-lib/superH/libc.a(s_isnan.o)
+ .comment       0x000000000803d000       0x20 ../../../../tools/tools-lib/superH/libc.a(dtoa.o)
+ .comment       0x000000000803d020       0x20 ../../../../tools/tools-lib/superH/libc.a(memchr.o)
+ .comment       0x000000000803d040       0x20 ../../../../tools/tools-lib/superH/libc.a(stdio.o)
+ .comment       0x000000000803d060       0x20 ../../../../tools/tools-lib/superH/libc.a(fwalk.o)
+ .comment       0x000000000803d080       0x20 ../../../../tools/tools-lib/superH/libc.a(mallocr.o)
+ .comment       0x000000000803d0a0       0x20 ../../../../tools/tools-lib/superH/libc.a(freer.o)
+ .comment       0x000000000803d0c0       0x20 ../../../../tools/tools-lib/superH/libc.a(makebuf.o)
+ .comment       0x000000000803d0e0       0x20 ../../../../tools/tools-lib/superH/libc.a(mprec.o)
+ .comment       0x000000000803d100       0x20 ../../../../tools/tools-lib/superH/libc.a(closer.o)
+ .comment       0x000000000803d120       0x20 ../../../../tools/tools-lib/superH/libc.a(lseekr.o)
+ .comment       0x000000000803d140       0x20 ../../../../tools/tools-lib/superH/libc.a(writer.o)
+ .comment       0x000000000803d160       0x20 ../../../../tools/tools-lib/superH/libc.a(readr.o)
+ .comment       0x000000000803d180       0x20 ../../../../tools/tools-lib/superH/libc.a(mlock.o)
+ .comment       0x000000000803d1a0       0x20 ../../../../tools/tools-lib/superH/libc.a(sbrkr.o)
+ .comment       0x000000000803d1c0       0x20 ../../../../tools/tools-lib/superH/libc.a(fstatr.o)
+ .comment       0x000000000803d1e0       0x20 ../../../../tools/tools-lib/superH/libc.a(syscalls.o)
+ .comment       0x000000000803d200       0x20 ../../../../tools/tools-lib/superH/libc.a(callocr.o)
+ .comment       0x000000000803d220       0x20 ../../../../tools/tools-lib/superH/libc.a(abort.o)
+ .comment       0x000000000803d240       0x20 ../../../../tools/tools-lib/superH/libc.a(signal.o)
+ .comment       0x000000000803d260       0x20 ../../../../tools/tools-lib/superH/libc.a(signalr.o)
+ .comment       0x000000000803d280       0x20 ../../../../tools/tools-lib/superH/libgcc.a(_si_to_df.o)
+ .comment       0x000000000803d2a0       0x20 ../../../../tools/tools-lib/superH/libgcc.a(_mul_df.o)
+ .comment       0x000000000803d2c0       0x20 ../../../../tools/tools-lib/superH/libgcc.a(_usi_to_df.o)
+ .comment       0x000000000803d2e0       0x20 ../../../../tools/tools-lib/superH/libgcc.a(_div_df.o)
+ .comment       0x000000000803d300       0x20 ../../../../tools/tools-lib/superH/libgcc.a(_df_to_si.o)
+ .comment       0x000000000803d320       0x20 ../../../../tools/tools-lib/superH/libgcc.a(_sf_to_df.o)
+ .comment       0x000000000803d340       0x20 ../../../../tools/tools-lib/superH/libgcc.a(_lt_df.o)
+ .comment       0x000000000803d360       0x20 ../../../../tools/tools-lib/superH/libgcc.a(_ne_df.o)
+ .comment       0x000000000803d380       0x20 ../../../../tools/tools-lib/superH/libgcc.a(_eq_df.o)
+ .comment       0x000000000803d3a0       0x20 ../../../../tools/tools-lib/superH/libgcc.a(_addsub_df.o)
+ .comment       0x000000000803d3c0       0x20 ../../../../tools/tools-lib/superH/libgcc.a(_gt_df.o)
+ .comment       0x000000000803d3e0       0x20 ../../../../tools/tools-lib/superH/libgcc.a(_ge_df.o)
+ .comment       0x000000000803d400       0x20 ../../../../tools/tools-lib/superH/libgcc.a(_pack_df.o)
+ .comment       0x000000000803d420       0x20 ../../../../tools/tools-lib/superH/libgcc.a(_clzsi2.o)
+ .comment       0x000000000803d440       0x20 ../../../../tools/tools-lib/superH/libgcc.a(_ashldi3.o)
+ .comment       0x000000000803d460       0x20 ../../../../tools/tools-lib/superH/libgcc.a(_unpack_df.o)
+ .comment       0x000000000803d480       0x20 ../../../../tools/tools-lib/superH/libgcc.a(_muldi3.o)
+ .comment       0x000000000803d4a0       0x20 ../../../../tools/tools-lib/superH/libgcc.a(_thenan_df.o)
+ .comment       0x000000000803d4c0       0x20 ../../../../tools/tools-lib/superH/libgcc.a(_lshrdi3.o)
+ .comment       0x000000000803d4e0       0x20 ../../../../tools/tools-lib/superH/libgcc.a(_unpack_sf.o)
+ .comment       0x000000000803d500       0x20 ../../../../tools/tools-lib/superH/libgcc.a(_make_df.o)
+ .comment       0x000000000803d520       0x20 ../../../../tools/tools-lib/superH/libgcc.a(_fpcmp_parts_df.o)
+ .comment       0x000000000803d540       0x20 ../../../../tools/tools-lib/superH/libgcc.a(_clz.o)

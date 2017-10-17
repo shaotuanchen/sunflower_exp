@@ -1,0 +1,77 @@
+Archive member included because of file (symbol)
+
+../../../sys/libOS/eOS/libeOS-superH.a(print.o)
+                              bsort.o (print)
+../../../tools/tools-lib/superH/libgcc.a(_sdivsi3.o)
+                              bsort.o (__sdivsi3)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+Address of section .text set to 0x8004000
+
+.text           0x0000000008004000      0x940
+                0x0000000008004000                _text = .
+ *(.text)
+ .text          0x0000000008004000       0x20 init.o
+                0x0000000008004010                sleep
+ .text          0x0000000008004020      0x180 misc.o
+                0x00000000080040e0                xusleep
+                0x0000000008004134                pow10
+                0x000000000800408c                xudelay
+                0x0000000008004062                devlogprintputc
+                0x0000000008004020                sccputc
+ .text          0x00000000080041a0       0x70 devrtc.o
+                0x00000000080041a0                devrtc_getusecs
+ .text          0x0000000008004210       0x70 bsort.o
+                0x0000000008004210                bsort_input_len
+                0x000000000800421a                startup
+ .text          0x0000000008004280      0x620 ../../../sys/libOS/eOS/libeOS-superH.a(print.o)
+                0x00000000080047c0                sprint
+                0x00000000080047f8                fprint
+                0x0000000008004830                lprint
+                0x000000000800478c                snprint
+                0x0000000008004868                print
+ .text          0x00000000080048a0       0xa0 ../../../tools/tools-lib/superH/libgcc.a(_sdivsi3.o)
+                0x00000000080048a0                __sdivsi3
+ *(.strings)
+                0x0000000008004940                _etext = .
+
+.data           0x0000000008004940       0x40
+                0x0000000008004940                _data = .
+ *(.data)
+ .data          0x0000000008004940       0x40 bsort.o
+                0x0000000008004940                bsort_input
+                0x0000000008004980                _edata = .
+
+.bss            0x0000000008004980        0x0
+                0x0000000008004980                _bss = .
+ *(.bss)
+ *(COMMON)
+                0x0000000008004980                _ebss = .
+                0x0000000008004980                _end = .
+LOAD init.o
+LOAD misc.o
+LOAD devrtc.o
+LOAD bsort.o
+LOAD ../../../sys/libOS/eOS/libeOS-superH.a
+LOAD ../../../tools/tools-lib/superH/libgcc.a
+OUTPUT(bsort coff-sh)
+
+.stab           0x0000000008004980      0x530
+ .stab          0x0000000008004980      0x39c misc.o
+ .stab          0x0000000008004d1c      0x18c bsort.o
+                                        0x1b0 (size before relaxing)
+
+.comment        0x0000000008004eb0       0x80
+ .comment       0x0000000008004eb0       0x20 misc.o
+ .comment       0x0000000008004ed0       0x20 devrtc.o
+ .comment       0x0000000008004ef0       0x20 bsort.o
+ .comment       0x0000000008004f10       0x20 ../../../sys/libOS/eOS/libeOS-superH.a(print.o)
+
+.stabstr        0x0000000008004f30      0xb0c
+ .stabstr       0x0000000008004f30      0xb0c misc.o

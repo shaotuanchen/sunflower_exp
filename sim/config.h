@@ -41,7 +41,7 @@
 #define	SF_CHATTY		1
 #define	SF_PHYSICS		1
 #define	SF_DEBUG		0
-#define	SF_NETWORK		0
+#define	SF_NETWORK		1
 #define	SF_MOBILITY		1
 #define	SF_SIMLOG		1
 #define	SF_PAU_DEFINED		0

@@ -37,17 +37,17 @@ printf("\n %sfile created",filename);
 
 int startup(int argc, char *argv[]) {
 	
-    double ac[ 500 ];
+    double ac[ 100 ];
 	
-    double g[ 500 ];
+    double g[ 100 ];
 	
-	double a[500][2] ;
+	double a[100][2] ;
 	 
     int i, j;
 	
 LOGMARK(0);
 
-	for ( i = 0; i < 500; i++ ) {
+	for ( i = 0; i < 100; i++ ) {
 	
         ac[ i ] = sin( 0.5*((double)i) ) ; 
 	
@@ -66,7 +66,7 @@ LOGMARK(2);
 
 	char str[100] = "inferred";
  
-	create_marks_csv(str,a,500,2);
+	create_marks_csv(str,a,100,2);
  
 return 0;
  

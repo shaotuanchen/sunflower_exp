@@ -637,5 +637,5 @@ OUTPUT(fft coff-sh)
  .comment       0x000000000800fb00       0x20 ../../../../../tools/tools-lib/superH/libgcc.a(_clz.o)
  .comment       0x000000000800fb20       0x20 ../../../../../tools/tools-lib/superH/libgcc.a(_pack_sf.o)
 
-.stabstr        0x000000000800fb40     0x1efb
- .stabstr       0x000000000800fb40     0x1efb fftmisc.o
+.stabstr        0x000000000800fb40     0x1ef9
+ .stabstr       0x000000000800fb40     0x1ef9 fftmisc.o
